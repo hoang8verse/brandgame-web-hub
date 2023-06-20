@@ -1,0 +1,30 @@
+body { padding: 0; margin: 0 }
+#container { position: fixed; width: 100%; height: 100%; background: #18021f; display: none}
+#unity-container { position: fixed; width: 100%; height: 100%; background: #18021f; display: none}
+#unity-canvas { width: 100%; height: 100%;background: #18021f; }
+#unity-loading-bar { position: absolute; left:50%; top: 50%; transform: translate(-50%, -50%); display: none }
+#unity-splash { width: 330px; height: 424px; background: url('splash.png') no-repeat center }
+#unity-logo { width: 330px; height: 91px; background: url('logo.png') no-repeat center }
+#unity-progress-bar-empty {width:331px;height:30px; margin-top: 40px;  background-image:url('progress-bar-empty-dark.png'); background-repeat:no-repeat; background-position:center; }
+#unity-progress-bar-full { position:relative; top:1px; left: 0px; height: 22px; background: url('progress-bar-full-dark.png')  }
+/* #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none } */
+#popup {display:flex;flex-direction:column;justify-content:center;align-items:center;position:fixed;top:0;left:0;width:100%;height:100%;background-color:#18021f;z-index:9999;visibility:hidden;}
+.popup-content {display:inline-block;padding:0px;border-radius:5px;text-align:center;width:330px;height:238px;background:url('popup_board.png') no-repeat center}
+.popup-buttons button{padding:0px;border-radius:5px;border:none;color:white;font-weight:bold;cursor:pointer;}
+.popup-buttons button#cancelButton{font-size:17px;color:white;font-weight:bold;width:118px;height:42px;background:url('button_deny.png') no-repeat center}
+.popup-buttons button#continueButton{font-size:17px;color:white;font-weight:bold;width:118px;height:42px;background:url('button_allow.png') no-repeat center}
+.popup-content h2{font-size:18px;color:white;font-weight:bold;padding:0px; margin-top: 15%; height: 35%; margin-left: 10%;margin-right: 10%;margin-bottom:5%;}
+
+#camera{display:flex;flex-direction:column;align-items:center;position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;visibility:hidden;}
+#camera-header{display:flex;flex-direction:column;align-items:center;justify-content:center;top:0;left:0;width:100%;height:140px;background:url('header.png') no-repeat center; margin-bottom:15%;}
+#camera-header-image{width:59px;height:59px;background:url('camera_icon.png') no-repeat center}
+#camera-header-buttons {visibility:hidden;}
+#camera-header-allowButton{border-radius:5px;border:none;font-weight:bold;cursor:pointer;font-size:17px;color:white;width:118px;height:42px;background:url('button_allow.png') no-repeat center}
+.camera-body {display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%;position: absolute; left:50%; top: 50%; transform: translate(-50%, -50%);}
+.camera-body h2{text-align:center;font-size:20px;color:white;font-weight:bold;padding:1px;margin:5px;margin-bottom:5%}
+
+#messageBox{display:flex;flex-direction:column;justify-content:center;align-items:center;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);z-index:9999;visibility:hidden;}
+.messageBox-content {display:inline-block;padding:0px;border-radius:5px;text-align:center;width:330px;height:238px;background:url('popup_board.png') no-repeat center}
+.messageBox-buttons button{border-radius:5px;border:none;color:white;font-weight:bold;cursor:pointer;}
+.messageBox-buttons button#closeButton{font-size:17px;color:white;font-weight:bold;width:118px;height:42px;background:url('button_allow.png') no-repeat center}
+.messageBox-content h2{font-size:18px;color:white;font-weight:bold;padding:0px; margin-top: 15%; height: 35%; margin-left: 10%;margin-right: 10%;margin-bottom:5%;}

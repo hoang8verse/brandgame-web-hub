@@ -1,0 +1,61 @@
+{
+  "name": "web-hub",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "axios": "^1.1.3",
+    "axios-curlirize": "^2.0.0",
+    "bootstrap": "^5.2.2",
+    "dotenv": "^16.0.3",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-bootstrap": "^2.5.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.6",
+    "react-jss": "^10.9.2",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "rn-fetch-blob": "^0.12.0",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.2.0",
+    "url": "^0.11.0",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "html-loader": "^4.2.0"
+  }
+}
